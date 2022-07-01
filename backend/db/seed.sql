@@ -1,4 +1,4 @@
-\c mixle;
+-- \c mixle;
 
 INSERT INTO users (username, email, password) VALUES 
     ('shawn', 'shawn@gmail.com', '$2b$10$jSK3gK28fB7bTi5/S89AUuOwiJloAmxz2eiNNBA8AOHNRIOtGtB96'),

@@ -1,7 +1,11 @@
-DROP DATABASE IF EXISTS mixle;
-CREATE DATABASE mixle;
+-- DROP DATABASE IF EXISTS mixle;
+-- CREATE DATABASE mixle;
 
-\c mixle;
+-- \c mixle;
+
+DROP TABLE IF EXISTS users;
+DROP TABLE IF EXISTS audio;
+DROP TABLE IF EXISTS effects;
 
 CREATE TABLE users (
     user_id SERIAL PRIMARY KEY,
